@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 id="heading">I am heading.</h1>
+    <ul class = "movieList">
+        <li class="movie">Ranjhana</li>
+        <li class="movie">Baghi</li>
+    </ul>
+
+    <script src="./3_CSSHandling.js"></script> <!--HTML runs linewise so if script is imported at first, it will executed first and since the console doesn't know about the rest elements at the time of execution, it won't do anything. To prevent this condition, either we use 'defer' keyword while importing inside heading or we simply import this at the end of code-->
+</body>
+</html>
