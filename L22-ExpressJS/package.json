@@ -1,0 +1,24 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anixet-14/WebDev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anixet-14/WebDev/issues"
+  },
+  "homepage": "https://github.com/anixet-14/WebDev#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "write": "^2.0.0"
+  }
+}
